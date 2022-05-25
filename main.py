@@ -1,6 +1,8 @@
 N = int(input())
 
 
-for i in range(1,10001):
-  if( i % N == 2):
-    print(i)
+if (2 < N < 1000):
+  for i in (1,11):
+    mult = i * N
+    print ("{} x {} = {}".format(i, N, mult))
+    
